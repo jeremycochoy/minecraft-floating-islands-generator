@@ -464,8 +464,8 @@ def generate_matrix(rx, rz):
 X_AMPLITUDE = 2
 Z_AMPLITUDE = 2
 
-for region_x in range(-X_AMPLITUDE, X_AMPLITUDE):
-    for region_z in range(-Z_AMPLITUDE, Z_AMPLITUDE):
+for region_x in range(0, 1):
+    for region_z in range(0, 1):
         region = generate_region(region_x, region_z)
         log("Region generated")
         region.save(f"r.{region_x}.{region_z}.mca")
