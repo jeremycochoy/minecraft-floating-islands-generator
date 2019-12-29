@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import anvil
-import noise
 import pyfastnoisesimd as fns
 import numpy as np
 import time
