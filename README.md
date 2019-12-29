@@ -1,5 +1,7 @@
-# minecraft-floating-islands-generator
+# Minecraft Floating Islands Generator
 This simple python script generate a map with floating islands
+
+![An example of generated land](example/floating-islands.gif)
 
 ## Usage
 
@@ -42,8 +44,8 @@ Yet, this script is very slow.
 The actual bottleneck is the usage of
 the python anvil library that use list of `Block` object istead of
 simple binary chunk. Using directly the NBT library and
-converting numpy array into the binary section directly into a nbt file
-could reduce saving to few seconds.
+converting numpy array into directly into a binary array
+could reduce the saving process to only few seconds.
 
 The second bottlebeck is the manipulation of a `np.array` of python
 `Block` object insted of simple integers. Using integers and a palet
