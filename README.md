@@ -3,6 +3,8 @@ This simple python script generate a map with floating islands
 
 ![An example of generated land](example/floating-islands.gif)
 
+You can download a [zipped world ready to use](example/FloatingIsland.zip).
+
 ## Usage
 
 A minecraft map is divided in regions (512 x 256 x 512 blocks).
